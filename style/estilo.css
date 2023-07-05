@@ -1,0 +1,554 @@
+.marcoProducto {
+    display: flex ;
+    background-color: white;
+    height: 430px;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: default;
+    transition: all 400ms ease;
+    border: 1px #a09f9f solid;
+    border-radius: 15px;
+    box-shadow: 2px 2px 10px #464545; 
+    margin: 15px;}
+
+.marcoProducto p {
+    font-weight: bolder;
+    margin: auto;
+    text-align: center; }
+
+.marcoProducto hr {
+    height: 3px;
+    border-width: 0;
+    background-color: #4c00ff;
+    margin-left: 40px;
+    margin-right: 40px; }
+
+.marcoProducto img {
+    object-fit: contain;
+    height: 100%;
+    width: 100%;
+    border-radius: 20px; }
+
+.marcoProducto:hover {
+    box-shadow: 5px 5px 20px black;
+    transform: translateY(-3%); }
+
+.imagenProducto {
+object-fit: contain;
+height: 40%;
+width: 100%; }
+
+.textoProducto {
+height: 60%;
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+margin: 5px;
+font-weight: bolder; }
+
+.marcoDetalleProducto {
+height: 400px;
+width: 100%;
+flex-direction: column;
+justify-content: space-between;
+cursor: default;
+margin-top: 20px; }
+
+.marcoDetalleProducto img {
+    object-fit: contain;
+    height: 100%;
+    width: 100%; }
+
+.fondo {
+background-color: white; }
+
+.detalleProducto {
+text-align: center;
+font-weight: bold;
+height: 400px;
+width: 100%;
+font-family: roboto; }
+
+.descripcionInferior {
+text-align: left; }
+
+
+.botonComprar {
+    border: none;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer; }
+  
+  .button {
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 15px;
+    font-weight: bold;
+    padding: 0.5em 1.2em;
+    background: #318aac;
+    border: 2px solid;
+    border-color: #318aac;
+    position: relative;
+    font-weight: bold;
+    border-radius: 15px;
+    margin-bottom: 1rem; }
+    .button:hover {
+      box-shadow: 0 4px 16px #318aac;
+      transition: all 0.2s ease; }
+  
+
+
+  .compraCarrrito {
+    text-align: right; }
+  
+  .linea {
+    display: inline-block; }
+  
+
+    .row {
+        text-align: center;
+        font-family: Roboto;
+        width: 100%; }
+    
+        .colorBodys {
+            color: #F5F5F5; }
+          
+          .lineaFooters {
+            color: #b78c33; }
+           
+
+            footer.nb-footer {
+                background: #39393a;
+                border-top: 4px solid #b78c33;
+                text-align: center; }
+              
+              .footer-info-single img {
+                margin-left: 5px; }
+              
+              .footer-info-single ul li {
+                text-decoration: none;
+                list-style: none;
+                text-align: center; }
+              
+              .footer.nb-footer .footer-info-single {
+                margin-top: 5px; }
+              
+              footer.nb-footer .footer-info-single .title {
+                color: white;
+                font-weight: bold;
+                text-transform: uppercase;
+                font-size: 16px;
+                padding-left: 5px; }
+              
+              footer.nb-footer .footer-info-single ul li a {
+                display: block;
+                color: white;
+                font-weight: bold;
+                padding: 2px 0;
+                text-decoration: none;
+                list-style: none; }
+              
+              footer.nb-footer .footer-info-single ul li p {
+                display: block;
+                color: white;
+                font-weight: bold;
+                padding: 2px 0; }
+              
+              footer.nb-footer .footer-info-single ul li a:hover {
+                color: #b78c33; }
+              
+              footer.nb-footer .d-flex {
+                text-align: center; }
+              
+              .textoFooter {
+                text-align: center; }
+              
+              .ContenedorRedesSociales {
+                width: 100%;
+                height: 1rem; }
+              
+              /* link redes sociales en el footer */
+              .redesSociales img {
+                margin-top: 0px;
+                padding-left: auto;
+                height: 30px;
+                width: 30px; }
+              
+              .contenedorLogo {
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                margin-top: 20px; }
+              
+              .margenFooter {
+                margin-bottom: 70px;
+                background-color: #39393a; }
+              
+
+
+
+
+                /* MEDIA QUERIES */
+@media screen and (max-width: 576px) {
+    .marcoProducto {
+      height: fit-content; } }
+  
+  @media screen and (max-width: 1100px) {
+    .form-outline {
+      display: none; }
+    .input-group {
+      display: none; } }
+  
+  header {
+    z-index: 3;
+    height: 100px;
+    position: sticky;
+    top: 0; }
+  
+  .container-fluid {
+    background-color: #39393a; }
+    .container-fluid .rash {
+      width: 60px;
+      margin: 20px; }
+    .container-fluid .input-group {
+      align-items: flex-end;
+      width: auto; }
+    .container-fluid .navbar-light .navbar-nav .nav-link {
+      color: white;
+      font-weight: bold;
+      text-decoration: none;
+      text-align: center; }
+    .container-fluid .nav-link {
+      color: white !important;
+      font-size: 1.3rem; }
+  
+  .d-flex {
+    text-align: center;
+    margin-top: 0%; }
+  
+  .navbar {
+    background-color: #39393a; }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto"; }
+  
+  body {
+    background-color: #F5F5F5; }
+    
+  
+  h2, h1 {
+    font-family: roboto;
+    font-weight: bold; }
+  
+  .imagenesCentrales {
+    text-align: center;
+    background-color: #39393a; }
+  
+  /* Boton de whatssap */
+  .botonWhatsApp img {
+    width: 60px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px; }
+  
+  .row {
+    text-align: center;
+    font-family: Roboto;
+    width: 100%; }
+  
+  .container1 p {
+    color: white; }
+  
+  .articulos {
+    display: block;
+    margin: auto; }
+  
+  .secciones {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: flex-start; }
+  
+  .marca-main {
+    display: flex;
+    flex-wrap: wrap;
+    width: 23%;
+    max-width: 150px; }
+    .marca-main div:hover {
+      width: 100%;
+      border-radius: 50%;
+      box-shadow: 5px 5px 20px black;
+      transform: translateY(-3%); }
+    .marca-main img {
+      width: 100%;
+      border-radius: 50%;
+      background-color: white;
+      box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      object-fit: contain; }
+  
+  .caracteristicas ul {
+    list-style-type: none; }
+
+
+
+  /* formulario */
+
+.formulario form {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      background-color: white;
+      border: 1px #a09f9f solid;
+  border-radius: 15px;
+  box-shadow: 2px 2px 10px #464545;}
+
+
+/*-------------------------------------------------------------------*/
+
+
+  .modal-contenedor {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(255, 255, 255, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .5s;
+    opacity: 0.9;
+    visibility: hidden;
+}
+
+.modal-active {
+  width: 100%;
+  height: 100%;
+    opacity: 1;
+    visibility: visible;
+}
+
+.modal-carrito {
+    position: relative;
+    align-items: center;
+    background-color: white;
+    min-width: 900px;  
+    /*el ancho del modal*/
+    padding: 20px;
+    margin-top: -100%;
+    transition: all .5s;
+    font-weight: bolder;
+    border-color: blue;
+    border: 2px solid;
+    border-radius: 15px;
+/*    opacity: 0.5;
+    // opacity: .8; */
+}
+
+.modal-active .modal-carrito {
+    margin-top: 0;
+    border-color: blue ;
+}
+
+.modal-carrito h3 {
+    color: royalblue;
+    padding-bottom: 5px;
+    border-color: blue ;
+}
+.modal-carrito #carritoCerrar {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    font-size: 20px;
+    color: royalblue;
+    border: none;
+    background-color: white;
+    border-color: blue ;
+}
+.modal-carrito #carritoCerrar:hover {
+  opacity: 0.5;
+  border-color: blue ;
+    cursor: pointer;
+}
+.modal-carrito #carritoCerrar:focus {
+    outline: none;
+}
+.modal-carrito .precioProducto {
+  border-color: blue ; 
+    padding-top: 10px;
+    
+}
+
+.productoEnCarrito {
+    border-left: 5px solid lightblue;
+    border-bottom-left-radius: 3px;
+    border-top-left-radius: 3px;
+    margin: 5px 0;
+    padding: 5px 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.productoEnCarrito:hover {
+    border-left: 5px solid royalblue;
+}
+
+.boton-eliminar {
+    background-color: white;
+    color: red;
+    border: none;
+    font-size: 20px;
+}
+
+.boton-eliminar:hover {
+    cursor: pointer;
+}
+.boton-eliminar:focus {
+    outline: none;
+}
+
+
+#botonCarrito {
+/*   margin-left: auto;
+ display: block; */
+  color: #318aac;
+  font-size: 30px;
+  background-color: white;
+  border: none;
+  border-radius: 50%;
+  padding: 10px 25px;
+  transition: all .3s;
+  font-family: "Roboto";
+/*   flex-direction: row;*/
+/*   margin-left:auto ;  */
+}
+
+
+
+#botonCarrito:hover {
+  cursor: pointer;
+  color: white;
+  background-color: #318aac;
+}
+#botonCarrito:focus {
+  outline: none;
+}
+
+
+#contenedorProductos {
+  max-width: 1200px;
+  margin: 60px auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+
+p {
+  line-height: 1;
+}
+.producto {
+  max-width: 20%;
+  padding: 10px;
+  margin: 10px;
+  margin-bottom: 20px;
+  box-shadow: 2px 6px 3px 3px rgba(0, 0, 0, 0.3);
+}
+.precioProducto {
+  font-weight: 700;
+}
+.boton-agregar {
+  background-color: royalblue;
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 5px;
+  border: none;
+}
+.boton-agregar:hover {
+  cursor: pointer;
+}
+.boton-agregar:focus {
+  outline: none;
+}
+
+
+
+.imagenUsuario{
+  object-fit: contain;
+  border-radius: 15px;
+  box-shadow: 2px 2px 10px #39393a; 
+  border: 1px #39393a solid;
+  height: 70px;
+  width: 100%;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+
+
+#botonLog{
+  justify-content: space-between;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+
+  margin: 2rem;
+  margin-left: 80px;
+}
+
+#mod{
+  
+  align-items: center;
+  display:flexbox;
+  justify-content: center;
+  align-items: center;
+}
+
+.textoModal{
+  text-align: center;
+}
+
+
+.fa-solid{
+  color: white;
+  font-size: 30px;
+  font-weight: bolder;
+  
+}
+
+/* .fa-user{
+  margin-left: auto;
+ display: block;
+} */
+
+.alinear{
+    margin-left: auto;
+ display: block;
+ 
+}
+
+
+.iconosAgrupados{
+  margin-left: auto;
+  display: block;
+}
+
+/* //------baner ofertas----- */
+.banner{
+  height: 200px;
+  width: 70%;
+}
+
+.banner img{
+  object-fit: contain;
+  height: 100%;
+  width: 100%;
+  border-radius: 20px;
+}
+
+
